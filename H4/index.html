@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./_css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+        <title>Login</title>
+    </head>
+    <body class="loginbody">
+        <header id="nav-wrapper">
+            <nav id="nav">
+              <div class="nav left">
+                <span class="gradient skew">
+                  <h1 class="logo un-skew"><a href="home.html"><img id="LogoNav" src="_img/Logo.png" alt="Logo"></a></h1>
+                </span>
+                <button id="menu" class="btn-nav"><span class="fas fa-bars"></span></button>
+              </div>
+              <div class="nav right">
+                <a href="terms.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">Terms and
+                      Conditions</span></span></a>
+                <div id="RolexTime" style="position:absolute; height:70px; width:150px; z-index:1;"></div>
+                <iframe role="presentation"
+                  src="https://static.rolex.com/retailers/clock/?colour=gold&apiKey=8da6638add60d65135bc7c3ce1da60b0&lang=de"
+                  scrolling="no" frameborder="no" title=" "
+                  style="width:150px;height:70px;border:0;margin:0;padding:0;overflow:hidden;z-index:0;position:relative;"></iframe>
+              </div>
+              </div>
+            </nav>
+          </header>
+        <form method="post" action="confirm.html">
+            <div class="box">
+                <h1>Login</h1>
+                <input type="email" name="email" placeholder="e-mail"  class="input" required/>
+                <input type="password" name="password" placeholder="********" class="input" required/>
+                <input type="submit" value="Login">           
+                <a href="register.html"><div id="btn2">Sign Up</div></a>            
+            </div>           
+        </form>           
+        <p>Forgot your password? <u><a style="color:rgb(65, 61, 76);" href="resetpw.html">Click Here!</a></u></p>
+    </body>
+</html>

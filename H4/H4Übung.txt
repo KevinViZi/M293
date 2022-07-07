@@ -1,0 +1,4 @@
+SVGs sind die kleinsten dateien
+
+SVG im Notepad sieht aus wie Code und enthält klare Nummern wobei png und jpg "verfluchte" Zahlen beinhält.
+
